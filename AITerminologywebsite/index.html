@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Terminology Website</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1>AI World</h1>
+
+      <div class="nav-right">
+        <input type="text" id="searchInput" placeholder="Search AI Terms..." />
+        <button id="darkModeBtn">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Explore AI Technologies</h2>
+    <p>
+      Learn the basics of Artificial Intelligence, Machine Learning,
+      Deep Learning, and Generative AI.
+    </p>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="cards-container">
+
+    <div class="card">
+      <h2>AI</h2>
+      <p>
+        Artificial Intelligence is the simulation of human intelligence
+        by machines.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>ML</h2>
+      <p>
+        Machine Learning allows systems to learn from data and improve automatically.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>DL</h2>
+      <p>
+        Deep Learning is a subset of ML using neural networks with many layers.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>GenAI</h2>
+      <p>
+        Generative AI creates new content like text, images, music, and videos.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline-section">
+    <h2>AI Evolution Timeline</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <span>1950</span>
+        <p>Birth of Artificial Intelligence</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>1997</span>
+        <p>IBM Deep Blue defeated chess champion</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>2012</span>
+        <p>Deep Learning revolution started</p>
+      </div>
+
+      <div class="timeline-item">
+        <span>2022</span>
+        <p>Generative AI became mainstream</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Chatbot -->
+  <div class="chatbot">
+    <button id="chatBtn">💬 AI Bot</button>
+
+    <div class="chat-popup" id="chatPopup">
+      <h3>AI Assistant</h3>
+      <p>Hello 👋</p>
+      <p>Ask me about AI, ML, DL, or GenAI!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
